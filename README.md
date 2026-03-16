@@ -100,16 +100,10 @@ Note:
 ## Quick run
 
 ```bash
-uvicorn api:app --reload
+uvicorn api:app --reload --port 8000
 ```
 
 Then open:
 - `http://127.0.0.1:8000/meta`
 - `http://127.0.0.1:8000/slice/0`
 - `http://127.0.0.1:8000/volume`
-
-## Important implementation notes
-
-- No bounds checks currently exist for invalid `z_index`; out-of-range values will raise an error.
-- CORS is fully open (`*`), which is convenient for development but usually tightened in production.
-- The dataset variable name is hardcoded; changing source files may require adjusting this key.
