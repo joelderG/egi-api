@@ -99,6 +99,12 @@ Note:
 
 ## Quick run
 
+## Install
+
+```bash
+pip install -r requirements.txt
+```
+
 ```bash
 uvicorn api:app --reload --port 8000
 ```
