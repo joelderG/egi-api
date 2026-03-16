@@ -1,4 +1,4 @@
-# ReFlex API - Important Points and Code Walkthrough
+# ReFlex API
 
 This project exposes a small FastAPI service that serves 3D voxel prediction data from a NetCDF file.
 
